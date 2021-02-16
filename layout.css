@@ -1,0 +1,107 @@
+/* body {
+  padding: 15px;
+} */
+@media(max-width: 480px) and (max-height: 768px){
+  body {
+    border-color: blue;
+    border: solid;
+  }
+  header{
+    border-color: blue;
+    border: solid;
+    height: 75px;
+    width: 100%;    
+    background-color: blueviolet;
+  }
+  #secondDiv{
+    border-color: blue;
+    border: solid;
+    height: 150px;
+    width: 100%;
+    background-color: burlywood;
+  }
+  #thirdFourthDiv{
+    border-color: blue;
+    border: solid;
+    height: 125px;
+    width: 100%;
+    background-color: cadetblue;
+  }
+  #sectionLeft{
+    border-color: blue;
+    border: solid;
+    height: 250px;
+    width: 50%;
+    float: left;
+  }
+  #sectionRight{
+    border-color: blue;
+    border: solid;
+    height: 250px;
+    width: 50%;
+    float: right;
+    background-color: chartreuse;
+  }
+  footer{
+    border-color: blue;
+    border: solid;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    background-color: chocolate;
+  }
+}
+@media(min-width: 481px){
+  body{
+    max-width: 960px;
+    max-height: 768px;
+    justify-content: center;
+    margin: auto;
+  }
+  header {
+    border-color: blue;
+    border: solid;
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+  }
+  #secondDiv{
+    border-color: blue;
+    border: solid;
+    width: 20.84%;
+    height: 600px;
+    /* max-height: 300px; */
+    float: left;
+    background-color: darkblue;
+  }
+  #innerSecond{
+    max-height: 300px;
+    height: 50%;
+  }
+  #thirdFourthDiv{
+    border-color: blue;
+    border: solid;
+    width: 39.58%;
+    height: 200px;
+    /* height: 26.041%; */
+    float: left;
+    background-color: darkcyan;
+  }
+  section{
+    border-color: blue;
+    border: solid;
+    /* height: 24.7395%; */
+    height: 250px;
+    width: 19.79%;
+    float: left;
+    background-color: darkgreen;
+  }
+  footer{
+    overflow: hidden;
+    border-color: blue;
+    border: solid;
+    width: 79.16%;
+    height: 150px;
+    background-color: darkgrey;
+  }
+}

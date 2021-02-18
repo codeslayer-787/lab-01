@@ -5,6 +5,7 @@
   body {
     border-color: blue;
     border: solid;
+    /* text-align: center; */
   }
   header{
     border-color: blue;
@@ -57,6 +58,7 @@
     max-height: 768px;
     justify-content: center;
     margin: auto;
+    /* text-align: center;         */
   }
   header {
     border-color: blue;
@@ -64,6 +66,9 @@
     width: 100%;
     height: 100px;
     background-color: coral;
+    display: flex;
+    align-items:center;
+    text-align: center;
   }
   #secondDiv{
     border-color: blue;
